@@ -1,12 +1,31 @@
 <template>
-    <div class="first_div">
-        <img src="https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <div class="container">
+        
+        <h1>The Company</h1>
 
-        <div class="div_text">
-            <div class="div_title">
-                <h1 class="title">Diamonds</h1>
+        <div class="first_div">
+            <img class="diamond_picture" src="https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+            <div class="div_text">
+                <div class="div_title">
+                    <h1 class="title">Diamonds</h1>
+                </div>
+                <p class="paragraph">The earliest diamonds were found in India in 4th century BC, although the youngest of these deposits were formed 900 million years ago. A majority of these early stones were transported along the network of trade routes that connected India and China, commonly known as the Silk Road. At the time of their discovery, diamonds were valued because of their strength and brilliance, and for their ability to refract light and engrave metal. Diamonds were worn as adornments, used as cutting tools, served as a talisman to ward off evil, and were believed to provide protection in battle. In the Dark Ages, diamonds were also used as a medical aid and were thought to cure illness and heal wounds when ingested.</p>
             </div>
-            <p class="paragraph">The earliest diamonds were found in India in 4th century BC, although the youngest of these deposits were formed 900 million years ago. A majority of these early stones were transported along the network of trade routes that connected India and China, commonly known as the Silk Road. At the time of their discovery, diamonds were valued because of their strength and brilliance, and for their ability to refract light and engrave metal. Diamonds were worn as adornments, used as cutting tools, served as a talisman to ward off evil, and were believed to provide protection in battle. In the Dark Ages, diamonds were also used as a medical aid and were thought to cure illness and heal wounds when ingested.</p>
+        </div>
+        
+        <h1 class="about_the_developer">About the Developer</h1>
+
+        <div class="meet_developer">
+
+            <div class="div_text_developer">
+            <div class="div_title_developer">
+                <h1 class="title_developer">Gabriel Santillo</h1>
+            </div>
+            <p class="paragraph_developer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit corrupti ad, hic deleniti, eaque blanditiis delectus soluta nesciunt placeat rerum reiciendis accusamus, beatae nam quas labore doloribus repellat eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloremque est repellendus. Eum nesciunt nostrum explicabo delectus nihil, voluptatibus unde corrupti doloremque tenetur reiciendis sequi qui maiores quae totam asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nisi dolores. Sed eveniet expedita, iure nesciunt qui itaque voluptatem ea assumenda minus animi totam modi aspernatur at deleniti, accusamus quos!</p>
+            </div>
+
+            <img class="developer_picture" src="https://images.pexels.com/photos/5324926/pexels-photo-5324926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
     </div>
 </template>
@@ -25,7 +44,7 @@
     margin-top: 50px;
 }
 
-img {
+.diamond_picture {
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
@@ -51,6 +70,43 @@ img {
     margin-left: 20px;
     margin-right: 20px;
     text-align: start;
+}
+
+.about_the_developer {
+    margin-top: 50px;
+}
+
+.meet_developer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
+.div_title_developer {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    z-index: 2;
+    width: 300px;
+    color: white;
+    display: grid;
+    transform: translateX(250px);
+}
+
+.div_text_developer {
+    margin-top: 50px;
+}
+
+.paragraph_developer {
+    text-align: end;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.developer_picture {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 </style>
