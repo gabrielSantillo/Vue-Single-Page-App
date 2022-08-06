@@ -15,14 +15,6 @@
 </script>
 
 <style scoped>
-template {
-    margin: 0;
-    padding: 0;
-    font-family: "Garamond", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    min-height: 100vh;
-    place-items: center;
-    width: 100%;
-  }
 
 div {
 display: grid;
