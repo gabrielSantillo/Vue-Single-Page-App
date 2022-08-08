@@ -27,6 +27,29 @@
 
             <img class="developer_picture" src="https://images.pexels.com/photos/5324926/pexels-photo-5324926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
+
+        <div>
+            <h1 class="the_team">The Team</h1>
+            <div class="div_meet_the_team">
+                <div class="team_card">
+                    <img class="card_img" src="https://images.pexels.com/photos/806835/pexels-photo-806835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <h2>Alicia Keys</h2>
+                    <p class="paragraph_card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tempore ad doloribus alias pariatur aspernatur libero debitis, vero nisi officia beatae. Eos est nam eveniet a, quos nostrum impedit autem.</p>
+                </div>
+
+                <div class="team_card">
+                    <img class="card_img" src="https://images.pexels.com/photos/927451/pexels-photo-927451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <h2>Michael Jackson</h2>
+                    <p class="paragraph_card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet voluptate voluptatem, dignissimos sed obcaecati repellat, voluptas, non sequi suscipit maiores quidem! In ipsa voluptate error dignissimos saepe, tempora vero.</p>
+                </div>
+
+                <div class="team_card">
+                    <img class="card_img" src="https://images.pexels.com/photos/6592686/pexels-photo-6592686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <h2>Adam Levine</h2>
+                    <p class="paragraph_card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus modi in unde, dicta qui quas, quam minima eos inventore sequi ipsa quae est recusandae ullam aspernatur quis perferendis fugit beatae.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -107,6 +130,26 @@
     height: 75%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.div_meet_the_team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.the_team {
+    transform: translateY(-50px);
+}
+
+.card_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.paragraph_card {
+    margin: 0 30px;
 }
 
 </style>
