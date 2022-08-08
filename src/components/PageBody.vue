@@ -29,7 +29,7 @@
         </div>
 
         <div>
-            <h1 class="the_team">The Team</h1>
+            <h1 class="the_team_title">The Team</h1>
             <div class="div_meet_the_team">
                 <div class="team_card">
                     <img class="card_img" src="https://images.pexels.com/photos/806835/pexels-photo-806835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
@@ -65,6 +65,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .diamond_picture {
@@ -96,13 +98,15 @@
 }
 
 .about_the_developer {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .meet_developer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .div_title_developer {
@@ -112,7 +116,7 @@
     width: 300px;
     color: white;
     display: grid;
-    transform: translateX(250px);
+    transform: translateX(350px);
 }
 
 .div_text_developer {
@@ -127,29 +131,32 @@
 
 .developer_picture {
     width: 100%;
-    height: 75%;
+    height: 400px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.the_team_title {
+    margin-top: 100px;
 }
 
 .div_meet_the_team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
 }
 
-.the_team {
-    transform: translateY(-50px);
-}
+
 
 .card_img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 5px;
 }
 
 .paragraph_card {
-    margin: 0 30px;
+    margin: 0 100px;
 }
 
 </style>
